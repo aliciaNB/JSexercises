@@ -5,14 +5,16 @@
         The number is divisible by both 3 and 5 -Then "Hee Haw!" is printed to the console,
         Otherwise, the current number is printed.
  */
+
 for (let i = 1; i <= 100; i++) {
     if ((i % 3 === 0) && (i % 5 === 0)) {
-        console.log("Hee Haw!");
+        document.write("Hee Haw!<br>");
     } else if (i % 3 === 0) {
-        console.log("Hee!");
+        document.write("Hee!<br>");
     } else if (i % 5 === 0) {
-        console.log("Haw!");
+        document.write("Haw!<br>");
     } else {
-        console.log(i);
+        document.write("" + i + "<br>");
     }
 }
+
